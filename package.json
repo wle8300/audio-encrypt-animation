@@ -1,0 +1,22 @@
+{
+  "name": "audio-encrypt-animation",
+  "homepage": "https://wle8300.github.io/audio-encrypt-animation",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
